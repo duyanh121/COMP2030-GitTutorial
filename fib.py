@@ -6,7 +6,7 @@ Negative numbers should return None
 """
 def fibonacci(position):
   if(position < 0):
-    return -1
+    return None
   if(position == 0):
     return 0
   if(position == 1 or position == 2):
